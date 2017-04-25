@@ -2,12 +2,8 @@
 	"pages": [
         "pages/my/my",
 		"pages/all/all",
-
-		"pages/detial/detial",
-
+		"pages/detail/detail",
 		"pages/create/create",
-		"pages/create/tpl",
-
 		"pages/my/my-list"
 
 	],
