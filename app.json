@@ -1,6 +1,6 @@
 {
 	"pages": [
-
+        "pages/my/my",
 		"pages/all/all",
 
 		"pages/detial/detial",
@@ -8,11 +8,7 @@
 		"pages/create/create",
 		"pages/create/tpl",
 
-		"pages/my/my",
-		"pages/my/my-list",
-		"pages/my/about",
-		"pages/my/setting"
-
+		"pages/my/my-list"
 
 	],
 	"window": {
@@ -30,17 +26,17 @@
 			"pagePath": "pages/all/all",
 			"iconPath": "image/icon_component.png",
 			"selectedIconPath": "image/icon_component_HL.png",
-			"text": "所有活动"
+			"text": "活动记录"
 		}, {
-			"pagePath": "pages/create/tpl",
+			"pagePath": "pages/detail/detail",
 			"iconPath": "image/create_gray.png",
 			"selectedIconPath": "image/create.png",
-			"text": "快速创建"
+			"text": "消费记录"
 		}, {
 			"pagePath": "pages/my/my",
 			"iconPath": "image/icon_API.png",
 			"selectedIconPath": "image/icon_API_HL.png",
-			"text": "我"
+			"text": "报名"
 		}]
 	},
 	"networkTimeout": {
