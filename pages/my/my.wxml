@@ -6,4 +6,13 @@
   <view class="usermotto">
     <text class="user-motto">20.45</text>
   </view>
+  <view class="usermessageview">
+    <text class="usermessage"> 羽毛球活动第 10 期 \n 活动时间: 2017.4.29 9 - 2017.4.29 11:30 \n 地点: 金羽羽毛球馆，欢迎报名参加 ！\n 当前报名的有：</text>
+  </view>
+  <view class="usermessageview">
+    <text class="usermessage"> 张三 赵四 张三 赵四 \n 张三 赵四 张三 赵四 张三 \n 赵四 张三 赵四</text>
+  </view>
+  <view class="userbuttonview">
+        <button class="" type="primary" disabled="{{applyStatus}}" form-type="submit">报名/取消</button>
+  </view>
 </view>

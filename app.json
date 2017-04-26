@@ -18,7 +18,12 @@
 		"selectedColor": "#3cc51f",
 		"borderStyle": "white",
 		"backgroundColor": "#ffffff",
-		"list": [{
+		"list": [ {
+			"pagePath": "pages/my/my",
+			"iconPath": "image/icon_API.png",
+			"selectedIconPath": "image/icon_API_HL.png",
+			"text": "当前活动"
+		}, {
 			"pagePath": "pages/all/all",
 			"iconPath": "image/icon_component.png",
 			"selectedIconPath": "image/icon_component_HL.png",
@@ -28,12 +33,7 @@
 			"iconPath": "image/create_gray.png",
 			"selectedIconPath": "image/create.png",
 			"text": "消费记录"
-		}, {
-			"pagePath": "pages/my/my",
-			"iconPath": "image/icon_API.png",
-			"selectedIconPath": "image/icon_API_HL.png",
-			"text": "报名"
-		}]
+		} ]
 	},
 	"networkTimeout": {
 		"request": 10000,
