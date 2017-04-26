@@ -84,9 +84,9 @@ App({
     getTime: function() {
       return new Date().getTime();
     },
-    domain: 'https://web.huizecdn.com/',
-    APPID: 'wxe2ad8c364455262b',
-    SECRET: 'd119ef2dc7d07a5a0c476125e96a1552',
+    domain: 'https://www.free-link.cn/',
+    APPID: 'wx01ec918439646a91',
+    SECRET: '62892f90301c48e057b679879f896ec2',
     opendID: null,
     userInfo: null
   }

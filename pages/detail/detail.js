@@ -12,7 +12,7 @@ Page({
         //调用应用实例的方法获取全局数据
         app.getUserInfo(function(userInfo) {
             wx.request({
-                url: app.globalData.domain + 'api/wxapp/my/' + userInfo.nickName,
+                url: app.globalData.domain + 'BDsClub/get_yue/?name=' + userInfo.nickName,
                 success: function(res) {
                     _this.setData({
                         allActivity: res.data
