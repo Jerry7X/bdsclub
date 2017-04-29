@@ -4,15 +4,17 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{amount}}</text>
+    <text class="user-motto">{{amount}}元</text>
   </view>
   <view class="usermessageview">
     <text class="usermessage"> 第 {{play.id}} 期 \n 活动时间: {{play.duration}} \n 地点: {{play.place}} \n 已报名：</text>
   </view>
   <view class="usermessageview">
-    <text class="usermessage"> {{players}}</text>
+    <text class="usermessage"> {{play.players}}</text>
   </view>
+  <form bindsubmit="formSubmit" bindreset="formReset">
   <view class="userbuttonview">
-        <button class="" type="primary" disabled="{{applyStatus}}" form-type="submit">报名/取消</button>
+        <button class="" type="primary" disabled="{{play.state}}" form-type="submit">报名/取消</button>
   </view>
+  </form>
 </view>

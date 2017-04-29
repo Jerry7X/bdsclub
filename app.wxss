@@ -226,19 +226,19 @@ body {
 .list-avatar {
   float: left;
   width: 30px;
-  height: 30px;
+  height: 20px;
   border-radius: 50%;
   margin-right: 10px;
 }
 
 .list-name {
-  height: 30px;
-  line-height: 30px;
+  height: 20px;
+  line-height: 20px;
 }
 
 .list-des {
   margin-top: 10px;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .list-image {
@@ -251,7 +251,7 @@ body {
 .list-address,
 .list-time {
   min-height: 20px;
-  line-height: 16px;
+  
 }
 
 .list-address {
