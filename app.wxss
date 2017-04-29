@@ -236,6 +236,11 @@ body {
   line-height: 20px;
 }
 
+.list-content {
+  height: 30px;
+  line-height: 30px;
+}
+
 .list-des {
   margin-top: 10px;
   line-height: 1;

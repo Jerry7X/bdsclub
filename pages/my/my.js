@@ -17,9 +17,11 @@ Page({
         });
     },
     onLoad: function () {
+        /*
         wx.setNavigationBarTitle({
             title: '余额'
         });
+        */
     },
 
     loadData: function() {

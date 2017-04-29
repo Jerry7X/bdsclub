@@ -1,6 +1,6 @@
 <view class="container">
     <view class="section">
-    	<text>一共参加了 {{activity_count}} 期活动</text>
+    	<text>一共参加 {{activity_count}} 期活动</text>
 
 		<view class="list-box clearfix" wx:for="{{allActivity}}">
 		    <view class="list-item">
@@ -8,7 +8,7 @@
 		            
 					<view class="list-name" data-id="{{item._id}}">第 {{item.id}} 期</view>
 		            <view class="list-name" data-id="{{item._time}}">时间: {{item.time}}</view>               
-		            <view class="list-name" data-id="{{item._players}}">参与人:{{item.players}}
+		            <view  data-id="{{item._players}}">参与人:{{item.players}}
 		            </view>
 		        </view>
 		    </view>

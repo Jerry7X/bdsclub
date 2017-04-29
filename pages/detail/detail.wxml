@@ -1,6 +1,6 @@
 <view class="container">
   <view class="section">
-    <text>总充值金额 {{dt}} 元，目前总消费 {{ct}} 元</text>
+    <text>累计充值 {{dt}} 元, 累计消费 {{ct}} 元</text>
   </view>
   <view class="table" >
   <!-- <view class="table"> -->
